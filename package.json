@@ -1,0 +1,32 @@
+{
+  "name": "animal-catalog",
+  "version": "1.0.0",
+  "description": "Animal Catalog System",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode development"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.10",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+
+  
+}
+
+
